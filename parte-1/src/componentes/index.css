@@ -1,22 +1,38 @@
+/* border: 2px solid;
+box-shadow: inset 0px 0px 10px black;
+margin: 20px 450px 20px 450px;
+text-align: center; */
 .form{
-    border: 2px solid;
-    box-shadow: inset 0px 0px 10px black;
-    margin: 20px 450px 20px 450px;
-    text-align: center;
-    padding: 10px 0 20px 70px;
-    background-color:rgb(216, 210, 210);
+    padding: 10px 0 20px 30px;
+    
 }
 h2{
-    margin-right:70px;
-
+    text-align: center;
 }
 .form-select{
     width: 80%;
     margin-top: 30px;
     margin-right: 60px;
 }
-.form-check{
-    width: 5%;
+.radioButton, 
+.Nome, 
+.contato, 
+.endereco,
+.regiao{
+    display: flex;
+    /* flex-wrap:wrap; */
+
+}
+.form-label{
+    display: flex;
+}
+.form-control{
+    width: 40%;
+}
+.radioButton{
+    margin: 10px 0 10px 0;
+    width: 15%;
+    justify-content: space-between;
 }
 .mb-3{
     width: 80%;
