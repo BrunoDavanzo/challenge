@@ -1,18 +1,14 @@
-/* border: 2px solid;
-box-shadow: inset 0px 0px 10px black;
-margin: 20px 450px 20px 450px;
-text-align: center; */
+
 .form{
-    padding: 10px 0 20px 30px;
-    
+    padding: 50px;
+    margin: 5% 20% 5%;
+    border: 1px solid rgb(187, 185, 185);
 }
 h2{
     text-align: center;
 }
 .form-select{
-    width: 80%;
-    margin-top: 30px;
-    margin-right: 60px;
+    width: 45%;
 }
 .radioButton, 
 .Nome, 
@@ -20,23 +16,38 @@ h2{
 .endereco,
 .regiao{
     display: flex;
-    /* flex-wrap:wrap; */
-
-}
-.form-label{
-    display: flex;
 }
 .form-control{
-    width: 40%;
+    width: 90%;
 }
 .radioButton{
     margin: 10px 0 10px 0;
-    width: 15%;
+    width: 25%;
     justify-content: space-between;
 }
-.mb-3{
+.input {
     width: 80%;
 }
 p{
     margin:0 80px 0 5px;
+}
+
+@media (max-width: 600px) {
+    .form{
+        margin: auto;
+        padding: auto;
+    }
+    .radioButton, 
+    .Nome, 
+    .contato, 
+    .endereco,
+    .regiao{
+        flex-direction: column;
+    }
+    .input {
+        width: 100%;
+    }
+    .form-select{
+        width: 90%;
+    }
 }
