@@ -2,7 +2,7 @@
 
 ### Esse foi um desafio de React, onde a proposta era criar uma página responsiva contendo os requisitos abaixo: 
 
-[x] Criação de um Menu responsivel de navegação com acesso a 4 páginas.
+[x] Criação de um Menu responsivo de navegação com acesso a 4 páginas.
 
 [x] Criação de um formulário responsivo.
 
