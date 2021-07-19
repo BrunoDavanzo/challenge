@@ -1,4 +1,4 @@
-# Desafio LogLifef
+# Desafio LogLife
 
 ### Esse foi um desafio de React, onde a proposta era criar uma página responsiva contendo os requisitos abaixo: 
 
@@ -11,5 +11,5 @@
 ### Para inicializar o projeto, siga os seguintes passos:
 
 1. Clone o respositório do Github.
-2. No terminal use npm install, para instalar as devidas dependências.
-3. Por fim, use npm start para inicializar o projeto.
+2. No terminal use "npm install", para instalar as devidas dependências.
+3. Por fim, use "npm start" para inicializar o projeto.
