@@ -6,10 +6,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Adicionar from './Adicionar';
-import Editar from './Editar';
-import Lista from './Lista';
-import Visualizar from './Visualizar';
+import Adicionar from '../Add/Adicionar'
+import Editar from '../Editar/Editar';
+import Lista from '../Lista/Lista';
+import Visualizar from '../Visualizar/Visualizar';
 
 export default class navBar extends Component {
     render() {

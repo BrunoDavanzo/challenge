@@ -1,6 +1,5 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarComp from './componentes/NavbarComp';
+import NavbarComp from './componentes/Menu/NavbarComp';
 
 
 
