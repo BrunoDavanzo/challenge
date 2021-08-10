@@ -1,4 +1,4 @@
-# Desafio LogLife
+# Desafio 
 
 ### Esse foi um desafio de React, onde a proposta era criar uma página responsiva contendo os requisitos abaixo: 
 
